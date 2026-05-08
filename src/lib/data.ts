@@ -144,37 +144,39 @@ export type Project = {
 export const projects: Project[] = [
   {
     slug: "museum-itb",
-    title: "Museum ITB",
+    title: "Museum ITB Website",
     tags: [
-      "React.js",
+      "Next.js",
       "Node.js",
       "PostgreSQL",
+      "Redux",
+      "Tailwind CSS",
       "Payment Gateway",
-      "CMS",
       "Websocket",
+      "CMS",
     ],
     shortDesc:
-      "Full-stack development of a comprehensive digital ecosystem for the official ITB Museum, bridging educational storytelling, interactive exhibits, and commercial services",
+      "Full-stack development of a comprehensive digital ecosystem for the official ITB Museum, bridging educational storytelling, interactive exhibits, and commercial services.",
     year: "2026",
     thumbnail:
       "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
     color: "from-orange-50 to-amber-100",
     category: "Fullstack Web App",
-    duration: "Jan 2026 – May 2026",
+    duration: "Jan 2026 – Feb 2026",
     role: "Fullstack Developer",
     overview:
-      "A comprehensive motorcycle service management platform built for a workshop in Lombok. The system handles end-to-end service operations — from customer check-in, mechanic work orders, inventory tracking, to final payment and salary disbursement for staff.",
+      "Membangun ekosistem digital menyeluruh untuk Museum ITB yang menggabungkan edukasi, pameran interaktif, dan layanan komersial. Sistem ini dirancang untuk menangani trafik tinggi dan kebutuhan SEO yang kuat menggunakan Next.js.",
     challenges:
-      "The client was previously managing everything manually using paper records, leading to frequent errors in billing, stock discrepancies, and difficulty tracking employee performance. They needed a digitized, role-based system that was easy to use even for non-tech-savvy staff.",
+      "Menghubungkan alur ticketing yang kompleks, manajemen inventaris toko souvenir, dan arsip museum yang interaktif ke dalam satu platform yang performan dan mudah diakses oleh berbagai kalangan usia.",
     solution:
-      "Built a robust fullstack application with a clean React.js frontend using shadcn/ui and a RESTful API backend powered by Node.js and PostgreSQL. Implemented role-based access control (RBAC) for admins, mechanics, and the owner, each with tailored dashboards and permissions.",
+      "Menggunakan Next.js dengan Server-Side Rendering (SSR) untuk visibilitas SEO koleksi museum. Di sisi backend, Node.js digunakan untuk menangani konkurensi tinggi pada sistem booking tiket dan transaksi retail.",
     features: [
-      "Role-based access for Admin, Mechanic & Owner",
-      "Service record management with status tracking",
-      "Inventory & spare parts tracking with low-stock alerts",
-      "Integrated payment system with receipt generation",
-      "Employee salary calculation & monthly reporting",
-      "Owner dashboard with business KPI metrics",
+      "Custom booking engine dengan real-time slot management",
+      "Digital ticket generation & secure validation",
+      "Interactive modules untuk digital walkthrough arsip museum",
+      "E-commerce platform untuk merchandise museum",
+      "State management menggunakan Redux untuk keranjang belanja & tiket",
+      "Optimasi SEO melalui Server-Side Rendering (SSR)",
     ],
     gallery: [
       "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80",
@@ -184,37 +186,39 @@ export const projects: Project[] = [
   },
   {
     slug: "mywishlist-account",
-    title: "Mywishlist Account",
+    title: "Mywishlist Personal Shopper",
     tags: [
-      "React.js",
+      "Next.js",
       "Node.js",
       "PostgreSQL",
       "Payment Gateway",
-      "CMS",
       "Shipping API",
+      "Tailwind CSS",
+      "Mobile First",
+      "CMS",
     ],
     shortDesc:
-      "End-to-end development of a high-performance online web specialized in personal shopping services (Jasa Titip)",
+      "End-to-end development of a high-performance C2C marketplace specialized in personal shopping services (Jasa Titip).",
     year: "2026",
     thumbnail:
       "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
     color: "from-orange-50 to-amber-100",
     category: "Fullstack Web App",
-    duration: "Jan 2026 – Apr 2026",
+    duration: "Jan 2026 – Feb 2026",
     role: "Fullstack Developer",
     overview:
-      "A comprehensive motorcycle service management platform built for a workshop in Lombok. The system handles end-to-end service operations — from customer check-in, mechanic work orders, inventory tracking, to final payment and salary disbursement for staff.",
+      "Sebuah platform marketplace C2C khusus untuk layanan Jasa Titip (Jastip). Fokus utama adalah memberikan pengalaman 'shop on the go' yang lancar bagi traveler dan pembeli.",
     challenges:
-      "The client was previously managing everything manually using paper records, leading to frequent errors in billing, stock discrepancies, and difficulty tracking employee performance. They needed a digitized, role-based system that was easy to use even for non-tech-savvy staff.",
+      "Membangun kepercayaan antara pembeli dan personal shopper melalui sistem pelacakan order yang transparan serta memastikan platform tetap cepat meskipun banyak unggahan gambar dari pengguna.",
     solution:
-      "Built a robust fullstack application with a clean React.js frontend using shadcn/ui and a RESTful API backend powered by Node.js and PostgreSQL. Implemented role-based access control (RBAC) for admins, mechanics, and the owner, each with tailored dashboards and permissions.",
+      "Implementasi Incremental Static Regeneration (ISR) untuk katalog produk agar loading cepat namun data tetap update. Desain diprioritaskan untuk mobile-first guna mendukung penggunaan saat traveler berada di lokasi belanja.",
     features: [
-      "Role-based access for Admin, Mechanic & Owner",
-      "Service record management with status tracking",
-      "Inventory & spare parts tracking with low-stock alerts",
-      "Integrated payment system with receipt generation",
-      "Employee salary calculation & monthly reporting",
-      "Owner dashboard with business KPI metrics",
+      "Request Item feature (upload gambar & spesifikasi budget)",
+      "Intuitive catalog system untuk listing barang luar negeri",
+      "Secure payment & order tracking system",
+      "SSR & ISR untuk performa maksimal dan SEO",
+      "Mobile-optimized interface untuk penggunaan on-the-go",
+      "Communication layer yang efisien antara frontend dan backend",
     ],
     gallery: [
       "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80",
@@ -224,30 +228,30 @@ export const projects: Project[] = [
   },
   {
     slug: "lombok-motor-service",
-    title: "Lombok Motor Service Platform",
-    tags: ["React.js", "Node.js", "PostgreSQL"],
+    title: "Lombok Motor POS System",
+    tags: ["React.js", "Node.js", "PostgreSQL", "Tailwind CSS", "CMS"],
     shortDesc:
-      "Full-stack motorcycle service management system with inventory tracking, payment integration, salary management, and owner business dashboard.",
+      "End-to-end development of a specialized Point of Sale (POS) and management system tailored for motorcycle workshop operations.",
     year: "2025",
     thumbnail:
       "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
     color: "from-orange-50 to-amber-100",
     category: "Fullstack Web App",
-    duration: "Jul 2025 – Dec 2025",
+    duration: "Aug 2025 – Dec 2025",
     role: "Fullstack Developer",
     overview:
-      "A comprehensive motorcycle service management platform built for a workshop in Lombok. The system handles end-to-end service operations — from customer check-in, mechanic work orders, inventory tracking, to final payment and salary disbursement for staff.",
+      "Sistem POS dan manajemen internal yang dirancang khusus untuk operasional bengkel motor, mencakup manajemen servis, inventaris spare part, hingga laporan keuangan harian.",
     challenges:
-      "The client was previously managing everything manually using paper records, leading to frequent errors in billing, stock discrepancies, and difficulty tracking employee performance. They needed a digitized, role-based system that was easy to use even for non-tech-savvy staff.",
+      "Workshop memerlukan akurasi stok yang ketat dan integrasi perangkat keras seperti printer thermal untuk cetak struk secara instan di area kerja yang sibuk.",
     solution:
-      "Built a robust fullstack application with a clean React.js frontend using shadcn/ui and a RESTful API backend powered by Node.js and PostgreSQL. Implemented role-based access control (RBAC) for admins, mechanics, and the owner, each with tailored dashboards and permissions.",
+      "Membangun SPA (Single Page Application) yang responsif dengan integrasi langsung ke barcode scanner dan printer thermal. Menggunakan Role-Based Access Control untuk membedakan fungsi Owner, Kasir, dan Mekanik.",
     features: [
-      "Role-based access for Admin, Mechanic & Owner",
-      "Service record management with status tracking",
-      "Inventory & spare parts tracking with low-stock alerts",
-      "Integrated payment system with receipt generation",
-      "Employee salary calculation & monthly reporting",
-      "Owner dashboard with business KPI metrics",
+      "Real-time stock tracking dengan low-stock alerts",
+      "Service module untuk penugasan mekanik & tracking progres",
+      "Automated invoicing & revenue reports",
+      "Thermal printer integration & barcode scanning",
+      "Role-Based Access Control (RBAC)",
+      "Full deployment & server management",
     ],
     gallery: [
       "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80",
@@ -256,64 +260,31 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "cabin-villas-scheduling",
-    title: "Cabin Villas Scheduling",
-    tags: ["Next.js", "WhatsApp API", "SEO"],
+    slug: "3d-gun-viewer",
+    title: "3D Gun Viewer Platform",
+    tags: ["Next.js", "Three.js", "React Three Fiber", "Tailwind CSS", "WebGL"],
     shortDesc:
-      "Villa scheduling and information website with real-time availability, booking flow via WhatsApp API, and SEO optimization for better conversion.",
-    year: "2025",
-    thumbnail:
-      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
-    color: "from-emerald-50 to-teal-100",
-    category: "Frontend Web",
-    duration: "Oct 2025 – Nov 2025",
-    role: "Frontend Developer",
-    overview:
-      "A modern villa rental website for a cabin property business, designed to showcase the property beautifully and convert visitors into bookings. Features a real-time availability calendar and a seamless booking flow integrated with WhatsApp for direct communication.",
-    challenges:
-      "The client wanted a website that felt premium and trustworthy, optimized for local SEO to attract tourists searching online. The booking process needed to be frictionless without requiring a complex backend reservation system.",
-    solution:
-      "Developed with Next.js for SSR/SSG to maximize SEO performance. Implemented a real-time availability calendar with local state management and a WhatsApp deeplink booking flow that sends pre-filled inquiry messages. Fully responsive and mobile-first.",
-    features: [
-      "Real-time availability calendar",
-      "One-click WhatsApp booking integration",
-      "Google Maps location embed",
-      "Image gallery with lightbox",
-      "SEO-optimized with structured data",
-      "Mobile-first responsive design",
-    ],
-    gallery: [
-      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
-      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&q=80",
-      "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
-    ],
-  },
-  {
-    slug: "3d-airsoft-preview",
-    title: "3D Airsoft Gun Preview",
-    tags: ["Three.js", "React Three Fiber", "React.js"],
-    shortDesc:
-      "Interactive 3D product preview website with scroll-based and user-triggered animations for an immersive product showcase experience.",
+      "A specialized web-based 3D visualization platform for firearms and tactical equipment, focusing on high-fidelity interactive exploration.",
     year: "2025",
     thumbnail:
       "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=800&q=80",
     color: "from-slate-50 to-blue-100",
     category: "3D / Interactive Web",
-    duration: "Jul 2025 – Aug 2025",
+    duration: "Nov 2025",
     role: "Frontend Developer",
     overview:
-      "An immersive 3D product showcase website for an airsoft gun brand. Users can view the product from all angles, explore animations triggered by scrolling, and interact directly with the 3D model — all in the browser with no plugin required.",
+      "Platform visualisasi 3D berbasis web untuk peralatan taktis. Pengguna dapat melakukan inspeksi mendalam terhadap model 3D dengan performa hardware-accelerated langsung di browser.",
     challenges:
-      "Rendering a high-fidelity 3D model performantly in the browser across devices was the primary challenge. The experience needed to feel smooth and cinematic while remaining accessible on mid-range mobile devices.",
+      "Menampilkan model 3D dengan fidelitas tinggi (format GLTF/GLB) tanpa mengorbankan waktu pemuatan halaman (loading speed) dan memastikan kontrol kamera tetap halus.",
     solution:
-      "Used React Three Fiber as a declarative wrapper for Three.js, enabling clean component-based 3D scene management. Implemented GSAP-powered scroll-based camera animations and lazy-loaded the 3D model using Suspense. Performance was optimized with instanced geometry and texture compression.",
+      "Memanfaatkan React Three Fiber (R3F) untuk menjembatani state React dengan WebGL. Mengimplementasikan strategi loading aset yang efisien dan kontrol kamera tingkat lanjut untuk inspeksi detail.",
     features: [
-      "Interactive 3D model — drag to rotate",
-      "Scroll-triggered camera animations",
-      "Hotspot annotations on key product parts",
-      "Mobile-optimized with adaptive quality",
-      "Smooth GSAP transitions between scenes",
-      "Reusable React component architecture",
+      "Interactive 3D inspection (Rotate, Zoom, Inspect)",
+      "Hardware-accelerated performance via WebGL",
+      "Dynamic data display (Caliber, Fire rate, Weight)",
+      "Efficient asset loading (GLTF/GLB)",
+      "Modern UI built with Next.js and Tailwind CSS",
+      "Vercel optimized deployment with CI/CD",
     ],
     gallery: [
       "https://images.unsplash.com/photo-1617802690658-1173a812650d?w=800&q=80",
@@ -322,9 +293,9 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "bina-labs-course",
-    title: "Bina Labs Course Platform",
-    tags: ["React.js", "Laravel", "Tailwind CSS"],
+    slug: "bina-labs-v2",
+    title: "Bina Labs Website V2",
+    tags: ["React.js", "Laravel", "Tailwind CSS", "Meta Pixel"],
     shortDesc:
       "Full rebranding of an educational platform with mobile-first responsive UI, Meta Pixel analytics, and Laravel backend integration.",
     year: "2024",
@@ -332,21 +303,21 @@ export const projects: Project[] = [
       "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&q=80",
     color: "from-blue-50 to-indigo-100",
     category: "Fullstack Web App",
-    duration: "Aug 2024 – Jan 2025",
+    duration: "Dec 2024 – Jan 2025",
     role: "Fullstack Developer",
     overview:
-      "A two-phase project starting with building the V1 educational course platform from scratch, then leading a full V2 rebranding for Bina Labs (Bina Aplikasi) — an online education platform focused on Islamic studies and English learning.",
+      "Membangun ulang platform pendidikan Bina Labs untuk kebutuhan rebranding. Platform ini menyediakan kursus mulai dari studi Islam, tahsin, hingga coding dan bahasa Inggris.",
     challenges:
-      "V1 required building both frontend and backend simultaneously while translating raw design concepts into a fully functional product. V2 demanded high design fidelity to Figma specs while maintaining backward compatibility with existing user data.",
+      "Mengimplementasikan desain Figma V2 yang kompleks ke dalam kode yang bersih serta mengintegrasikan sistem analitik untuk target audiens pemasaran.",
     solution:
-      "V1 was built with React.js, Tailwind CSS, and Laravel with a custom-designed PostgreSQL database schema. V2 introduced a complete UI overhaul with improved component architecture, Facebook Meta Pixel for marketing analytics, and optimized asset delivery for faster page loads.",
+      "Menggunakan React JS dengan Tailwind CSS untuk kecepatan pengembangan frontend dan Laravel untuk stabilitas backend. Fokus pada desain mobile-first untuk menjangkau audiens pelajar.",
     features: [
-      "Course catalog with category filtering",
-      "User authentication & enrollment system",
-      "Admin dashboard for content management",
-      "Facebook Meta Pixel integration",
-      "Mobile-first responsive design",
-      "Optimized asset pipeline for performance",
+      "Implementation of complex Figma V2 designs",
+      "Mobile-first design for diverse audience targets",
+      "Facebook Meta Pixel analytics integration",
+      "Complex add-on features for course management",
+      "Collaborative development with UI/UX teams",
+      "Deployment on production hosting environments",
     ],
     gallery: [
       "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80",
@@ -355,70 +326,281 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "mooncake-landing",
-    title: "Mooncake Landing Page",
-    tags: ["React.js", "Web3", "GSAP"],
+    slug: "bina-aplikasi-v1",
+    title: "Bina Aplikasi V1",
+    tags: ["React.js", "Laravel", "Tailwind CSS", "MySQL"],
     shortDesc:
-      "Modern landing page for a cryptocurrency project, showcasing its features and driving user interest with dynamic design.",
-    year: "2025",
+      "Development of the initial version of Bina Aplikasi, an educational platform for Islamic and English courses.",
+    year: "2024",
     thumbnail:
-      "https://images.unsplash.com/photo-1639762681057-408e52192e55?w=800&q=80",
-    color: "from-violet-50 to-purple-100",
-    category: "Frontend / Web3",
-    duration: "Mar 2025 – Apr 2025",
+      "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&q=80",
+    color: "from-blue-50 to-indigo-100",
+    category: "Fullstack Web App",
+    duration: "Aug 2024 – Oct 2024",
+    role: "Fullstack Developer",
+    overview:
+      "Membangun versi pertama (V1) dari platform kursus pendidikan Bina Aplikasi. Proyek ini mencakup pengembangan sistem dari awal, mulai dari perancangan database hingga implementasi desain menjadi platform yang fungsional.",
+    challenges:
+      "Menyusun arsitektur database yang fleksibel untuk berbagai jenis kursus (Agama dan Bahasa Inggris) serta memastikan proses deployment ke server hosting berjalan lancar.",
+    solution:
+      "Menggunakan Laravel sebagai backend yang stabil untuk manajemen data dan React JS untuk antarmuka pengguna yang dinamis. Saya juga bertanggung jawab penuh dalam konfigurasi database di server produksi.",
+    features: [
+      "Initial platform architecture & database design",
+      "Course management for Islamic and English content",
+      "End-to-end implementation from UI design",
+      "Asset collection and optimization",
+      "Full deployment and server setup",
+      "Responsive UI with Tailwind CSS",
+    ],
+    gallery: [],
+  },
+  {
+    slug: "internal-company-ips",
+    title: "Internal Company IP's",
+    tags: ["React.js", "Tailwind CSS", "Frontend"],
+    shortDesc:
+      "Landing page showcasing intellectual properties and recent internal company projects.",
+    year: "2024",
+    thumbnail:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+    color: "from-gray-50 to-slate-100",
+    category: "Frontend Web",
+    duration: "Aug 2024",
     role: "Frontend Developer",
     overview:
-      "A visually striking landing page for a cryptocurrency/DeFi project called Mooncake. The page was designed to build credibility, communicate the token's value proposition, and convert visitors into early adopters through a clean, animated presentation.",
+      "Mengembangkan landing page khusus untuk menampilkan daftar Kekayaan Intelektual (IP) serta proyek-proyek internal terbaru perusahaan.",
     challenges:
-      "Web3 projects often suffer from over-complex or generic landing pages. The challenge was making this feel premium and trustworthy while still being exciting and community-driven.",
+      "Menerjemahkan desain visual perusahaan ke dalam kode yang bersih dengan fokus pada penyajian portofolio yang profesional.",
     solution:
-      "Designed and developed a dark-themed, animation-rich React.js landing page with GSAP scroll animations, a tokenomics visualization section, roadmap timeline, and social proof components. Integrated wallet connection hints and CTA flows.",
+      "Implementasi desain pixel-perfect menggunakan React JS dan Tailwind CSS untuk memastikan performa loading yang cepat dan responsivitas maksimal.",
     features: [
-      "Animated hero with particle effects",
-      "Tokenomics section with animated charts",
-      "Roadmap timeline component",
-      "Team & community sections",
-      "Smooth GSAP scroll animations",
-      "Fully responsive dark-mode design",
+      "Portfolio-style showcase for internal projects",
+      "Clean and professional UI implementation",
+      "Optimized performance for faster content delivery",
+      "Responsive layout for desktop and mobile view",
     ],
-    gallery: [
-      "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=800&q=80",
-      "https://images.unsplash.com/photo-1640340434855-6084b1f4901c?w=800&q=80",
-      "https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800&q=80",
+    gallery: [],
+  },
+  {
+    slug: "kelana-boga",
+    title: "Kelana Boga Landing Page",
+    tags: ["React.js", "Tailwind CSS", "Educational"],
+    shortDesc:
+      "Educational landing page about traditional Indonesian cuisine games.",
+    year: "2024",
+    thumbnail:
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+    color: "from-orange-50 to-red-100",
+    category: "Frontend Web",
+    duration: "Mar 2024",
+    role: "Frontend Developer",
+    overview:
+      "Pembuatan landing page edukasi yang memperkenalkan permainan bertema kuliner tradisional Indonesia.",
+    challenges:
+      "Menciptakan nuansa visual yang menarik dan edukatif untuk audiens yang ingin mengenal lebih dalam tentang warisan kuliner lokal.",
+    solution:
+      "Menggunakan React JS untuk komponen yang reusable dan Tailwind CSS untuk styling yang cepat dan konsisten dengan desain original.",
+    features: [
+      "Educational content presentation",
+      "Interactive landing page elements",
+      "Mobile-friendly design architecture",
+      "Custom UI components based on branding",
     ],
+    gallery: [],
+  },
+  {
+    slug: "mooncake-landing",
+    title: "Mooncake Crypto Page",
+    tags: ["React.js", "Tailwind CSS", "Crypto"],
+    shortDesc:
+      "Modern information landing page for a new cryptocurrency project.",
+    year: "2024",
+    thumbnail:
+      "https://images.unsplash.com/photo-1639762681057-408e52192e55?w=800&q=80",
+    color: "from-purple-50 to-indigo-100",
+    category: "Frontend Web",
+    duration: "Feb 2024",
+    role: "Frontend Developer",
+    overview:
+      "Landing page informatif untuk proyek cryptocurrency baru, dirancang untuk memberikan detail teknis dan Roadmap kepada calon pengguna.",
+    challenges:
+      "Menyampaikan informasi teknologi blockchain yang kompleks ke dalam tampilan yang sederhana dan modern.",
+    solution:
+      "Implementasi desain modern menggunakan React JS. Website dideploy menggunakan Vercel untuk memastikan ketersediaan tinggi.",
+    features: [
+      "Cryptocurrency information showcase",
+      "Modern dark/light aesthetic implementation",
+      "Vercel deployment & optimization",
+      "Clean call-to-action (CTA) sections",
+    ],
+    liveUrl: "https://bonzailabs.vercel.app/",
+    gallery: [],
+  },
+  {
+    slug: "singer-personal-site",
+    title: "Singer Personal Website",
+    tags: ["Astro JS", "Tailwind CSS", "Personal"],
+    shortDesc:
+      "A personal website for a singer, built using Astro JS for performance optimization.",
+    year: "2023",
+    thumbnail:
+      "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=800&q=80",
+    color: "from-pink-50 to-rose-100",
+    category: "Frontend Web",
+    duration: "Dec 2023",
+    role: "Frontend Developer",
+    overview:
+      "Proyek eksplorasi menggunakan Astro JS untuk membangun landing page personal seorang penyanyi. Fokus utama adalah kecepatan akses dan SEO.",
+    challenges:
+      "Mempelajari framework baru (Astro JS) untuk mencapai performa 'zero-JS' pada konten statis.",
+    solution:
+      "Menerapkan konsep Islands Architecture dari Astro JS untuk memisahkan bagian statis dan interaktif, memastikan situs tetap ringan.",
+    features: [
+      "Exploration of Astro JS framework",
+      "Ultra-fast static content delivery",
+      "Minimalist and elegant UI for artist profile",
+      "Responsive styling with Tailwind CSS",
+    ],
+    gallery: [],
+  },
+  {
+    slug: "martial-arts-dance",
+    title: "Arts & Dance Landing Page",
+    tags: ["Astro JS", "Tailwind CSS", "Cultural"],
+    shortDesc:
+      "Educational landing page dedicated to traditional Indonesian martial arts and dance.",
+    year: "2023",
+    thumbnail:
+      "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=800&q=80",
+    color: "from-amber-50 to-orange-100",
+    category: "Frontend Web",
+    duration: "Dec 2023 – Jan 2024",
+    role: "Frontend Developer",
+    overview:
+      "Landing page edukatif yang membahas tentang seni bela diri tradisional dan tarian daerah Indonesia.",
+    challenges:
+      "Menampilkan banyak aset visual (foto/video) tanpa membebani performa website.",
+    solution:
+      "Menggunakan Astro JS untuk mengoptimalkan pengiriman aset statis dan Tailwind CSS untuk tata letak yang fleksibel di berbagai ukuran layar.",
+    features: [
+      "Static site generation for cultural education",
+      "Optimized asset loading for visual content",
+      "Rich cultural information layout",
+      "Clean and accessible typography",
+    ],
+    gallery: [],
   },
   {
     slug: "horror-game-cms",
     title: "Horror Game CMS",
-    tags: ["React.js", "Laravel", "CMS"],
+    tags: ["React.js", "Tailwind CSS", "REST API", "CMS"],
     shortDesc:
-      "Custom Content Management System streamlining content updates and management efficiency for a horror game project.",
-    year: "2024",
+      "Custom Content Management System designed to manage lore, characters, and assets for an upcoming horror game.",
+    year: "2023",
     thumbnail:
       "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&q=80",
-    color: "from-red-50 to-rose-100",
+    color: "from-red-950 to-zinc-900",
     category: "Fullstack / CMS",
-    duration: "2024",
+    duration: "Nov 2023 – Dec 2023",
+    role: "Frontend Developer",
+    overview:
+      "Membangun sistem manajemen konten (CMS) internal untuk tim pengembang game horor. Sistem ini memungkinkan editor untuk mengelola informasi game, update berkala, dan aset media secara terpusat.",
+    challenges:
+      "Mengintegrasikan UI yang kompleks dengan API internal perusahaan serta memastikan alur kerja manajemen konten tetap efisien bagi tim operasional.",
+    solution:
+      "Implementasi dashboard admin menggunakan React JS dan Tailwind CSS. Fokus utama adalah pada integrasi API yang aman dan manajemen state yang bersih untuk menangani data konten yang besar.",
+    features: [
+      "Custom internal content dashboard",
+      "API-driven data management",
+      "Role-based content editing flow",
+      "Media asset management integration",
+      "Responsive admin interface",
+    ],
+    gallery: [],
+  },
+  {
+    slug: "alterlife-server",
+    title: "Alterlife Server Website",
+    tags: ["PHP", "MySQL", "Fullstack", "Redesign"],
+    shortDesc:
+      "Full-stack development and maintenance of a community-driven server website, focusing on content management and periodic updates.",
+    year: "2022",
+    thumbnail:
+      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80",
+    color: "from-blue-100 to-indigo-200",
+    category: "Fullstack Web App",
+    duration: "Jan 2021 – Jan 2022",
     role: "Fullstack Developer",
     overview:
-      "A tailor-made Content Management System built specifically for a horror game studio's internal team. The CMS allows non-technical content editors to manage game lore, character profiles, patch notes, and community announcements without touching code.",
+      "Bertanggung jawab penuh atas pengembangan dan pemeliharaan website komunitas Alterlife. Proyek ini mencakup perancangan ulang (redesign) antarmuka dan penambahan fitur-fitur baru sesuai kebutuhan komunitas.",
     challenges:
-      "Generic CMS platforms like WordPress were too bloated and not tailored to the game's content structure. The team needed a fast, focused tool that matched their specific content types and publishing workflow.",
+      "Menjaga stabilitas website selama setahun penuh dan mengelola pembaruan konten bulanan secara berkala tanpa menyebabkan downtime.",
     solution:
-      "Built a custom CMS from scratch with a React.js frontend and Laravel backend. Designed a flexible content schema builder, rich text editor integration, and a media manager for game assets. Role-based access ensures editors and admins have appropriate permissions.",
+      "Membangun sistem full-stack berbasis PHP dan MySQL. Saya menerapkan siklus pemeliharaan rutin serta melakukan optimalisasi kode pada bagian backend untuk performa yang lebih stabil.",
     features: [
-      "Custom content type builder",
-      "Rich text editor with media embeds",
-      "Asset/media manager",
-      "Role-based editor & admin access",
-      "Content scheduling & draft system",
-      "RESTful API for frontend consumption",
+      "Full-stack PHP/MySQL architecture",
+      "Complete UI/UX redesign implementation",
+      "Monthly periodic maintenance & updates",
+      "Content editing & management system",
+      "Community-focused feature integration",
     ],
-    gallery: [
-      "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=800&q=80",
-      "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=800&q=80",
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80",
+    gallery: [],
+  },
+  {
+    slug: "clothing-brand-profile",
+    title: "Clothing Brand Company Profile",
+    tags: ["Laravel", "Bootstrap", "Unsplash API", "Fullstack"],
+    shortDesc:
+      "Professional company profile for a clothing brand featuring dynamic product galleries and API-driven imagery.",
+    year: "2021",
+    thumbnail:
+      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=800&q=80",
+    color: "from-stone-100 to-amber-200",
+    category: "Fullstack Web App",
+    duration: "Sep 2021 – Dec 2021",
+    role: "Fullstack Developer",
+    overview:
+      "Membangun website profil perusahaan untuk brand pakaian. Proyek ini mencakup desain dari awal hingga implementasi sistem backend yang mampu mengelola katalog produk secara dinamis.",
+    challenges:
+      "Menyediakan data demo yang terlihat nyata (realistic) dalam jumlah banyak untuk pengujian tampilan katalog produk.",
+    solution:
+      "Menggunakan Laravel dengan fitur Faker Seeding untuk menghasilkan ribuan data dummy. Saya juga mengintegrasikan API Unsplash untuk mendapatkan aset gambar berkualitas tinggi secara otomatis ke dalam platform.",
+    features: [
+      "Laravel-based full-stack architecture",
+      "Bootstrap responsive styling",
+      "Unsplash API integration for imagery",
+      "Data sorting & filtering using Laravel Faker",
+      "Dynamic product catalog display",
     ],
+    gallery: [],
+  },
+  {
+    slug: "music-store-platform",
+    title: "Music Store System",
+    tags: ["PHP Native", "Semantic UI", "MySQL", "Database Design"],
+    shortDesc:
+      "Full-stack e-commerce system for musical instruments, featuring a structured database and modern UI components.",
+    year: "2020",
+    thumbnail:
+      "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&q=80",
+    color: "from-teal-50 to-cyan-100",
+    category: "Fullstack Web App",
+    duration: "Jan 2020 – May 2020",
+    role: "Fullstack Developer",
+    overview:
+      "Salah satu proyek awal saya dalam membangun sistem toko musik full-stack. Proyek ini mencakup perancangan skema database relasional dan antarmuka belanja yang interaktif.",
+    challenges:
+      "Membangun logika belanja (keranjang/transaksi) dari nol menggunakan PHP native tanpa bantuan framework backend.",
+    solution:
+      "Fokus pada perancangan database MySQL yang efisien di sisi server dan menggunakan Semantic UI untuk mempercepat pengembangan antarmuka yang bersih dan konsisten.",
+    features: [
+      "Native PHP backend logic",
+      "Semantic UI framework implementation",
+      "Structured SQL database design",
+      "Product asset management",
+      "Shopping cart & transaction flow",
+    ],
+    gallery: [],
   },
 ];
 

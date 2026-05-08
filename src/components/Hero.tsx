@@ -11,7 +11,8 @@ export default function Hero() {
     let raf: number;
     const animate = () => {
       frame += 0.3;
-      if (ringRef.current) ringRef.current.style.transform = `rotate(${frame}deg)`;
+      if (ringRef.current)
+        ringRef.current.style.transform = `rotate(${frame}deg)`;
       raf = requestAnimationFrame(animate);
     };
     raf = requestAnimationFrame(animate);
@@ -34,17 +35,18 @@ export default function Hero() {
         </div>
 
         <h1 className="font-display text-[clamp(2.8rem,5vw,4.5rem)] leading-[1.08] tracking-tight text-[#16130F] mb-6">
-          Building{" "}
-          <em className="italic text-[#2A5C8A]">elegant</em>
+          Building <em className="italic text-[#2A5C8A]">elegant</em>
           <br />
           digital products.
         </h1>
 
         <p className="text-[1.05rem] text-[#5C5A56] max-w-md leading-relaxed mb-8">
-          Hi, I&apos;m <strong className="text-[#16130F] font-medium">Radhi</strong> — a fullstack developer based in{" "}
-          <strong className="text-[#16130F] font-medium">Bandung</strong>. I craft fast,
-          accessible, and beautifully designed web experiences from backend to
-          frontend.
+          Hi, I&apos;m{" "}
+          <strong className="text-[#16130F] font-medium">Radhi</strong> — a
+          fullstack developer based in{" "}
+          <strong className="text-[#16130F] font-medium">Bandung</strong>. I
+          craft fast, accessible, and beautifully designed web experiences from
+          frontend to backend.
         </p>
 
         {/* Actions */}
@@ -54,7 +56,14 @@ export default function Hero() {
             className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#16130F] text-white text-sm font-medium rounded-sm hover:bg-[#2A5C8A] transition-colors"
           >
             View My Work
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
           </a>
@@ -70,8 +79,12 @@ export default function Hero() {
         <div className="flex flex-wrap gap-6">
           {stats.map((s) => (
             <div key={s.label}>
-              <div className="font-display text-2xl text-[#2A5C8A]">{s.num}</div>
-              <div className="text-[0.75rem] text-[#A8A5A0] mt-0.5">{s.label}</div>
+              <div className="font-display text-2xl text-[#2A5C8A]">
+                {s.num}
+              </div>
+              <div className="text-[0.75rem] text-[#A8A5A0] mt-0.5">
+                {s.label}
+              </div>
             </div>
           ))}
         </div>
@@ -83,9 +96,11 @@ export default function Hero() {
         style={{ animation: "fadeUp 1s ease 0.35s both" }}
       >
         {/* Background grid decoration */}
-        <div className="absolute inset-0 opacity-[0.04]"
+        <div
+          className="absolute inset-0 opacity-[0.04]"
           style={{
-            backgroundImage: "linear-gradient(#16130F 1px, transparent 1px), linear-gradient(90deg, #16130F 1px, transparent 1px)",
+            backgroundImage:
+              "linear-gradient(#16130F 1px, transparent 1px), linear-gradient(90deg, #16130F 1px, transparent 1px)",
             backgroundSize: "40px 40px",
           }}
         />
@@ -104,7 +119,9 @@ export default function Hero() {
 
           {/* Avatar */}
           <div className="absolute inset-8 rounded-full bg-gradient-to-br from-[#E6EFF7] to-[#C8D8EC] flex items-center justify-center overflow-hidden">
-            <span className="font-display text-6xl text-[#2A5C8A]/40 select-none">RA</span>
+            <span className="font-display text-6xl text-[#2A5C8A]/40 select-none">
+              RA
+            </span>
           </div>
 
           {/* Badge: Available */}
@@ -116,7 +133,9 @@ export default function Hero() {
           {/* Badge: Location */}
           <div className="absolute top-6 -left-4 bg-white border border-[#E2DDD8] rounded-lg px-3 py-2 shadow-md">
             <div className="text-[0.7rem] text-[#A8A5A0] mb-0.5">Based in</div>
-            <div className="text-xs font-semibold text-[#16130F]">🇮🇩 Bandung, ID</div>
+            <div className="text-xs font-semibold text-[#16130F]">
+              🇮🇩 Bandung, ID
+            </div>
           </div>
         </div>
 
@@ -128,7 +147,10 @@ export default function Hero() {
           <div className="text-[0.7rem] text-[#A8A5A0] mb-1">Primary Stack</div>
           <div className="flex gap-1.5">
             {["React", "Next.js", "Laravel"].map((t) => (
-              <span key={t} className="text-[0.68rem] bg-[#E6EFF7] text-[#2A5C8A] px-2 py-0.5 rounded-full font-medium">
+              <span
+                key={t}
+                className="text-[0.68rem] bg-[#E6EFF7] text-[#2A5C8A] px-2 py-0.5 rounded-full font-medium"
+              >
                 {t}
               </span>
             ))}
@@ -139,8 +161,14 @@ export default function Hero() {
       {/* Inline keyframes */}
       <style jsx>{`
         @keyframes fadeUp {
-          from { opacity: 0; transform: translateY(24px); }
-          to   { opacity: 1; transform: translateY(0); }
+          from {
+            opacity: 0;
+            transform: translateY(24px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
         }
       `}</style>
     </section>

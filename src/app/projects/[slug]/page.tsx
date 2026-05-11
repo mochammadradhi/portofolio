@@ -11,7 +11,7 @@ export function generateStaticParams() {
   return projects.map((p) => ({ slug: p.slug }));
 }
 
-export async function generateMetadata({ params }: Props): Metadata {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params; // Unwrapping the promise
   const project = projects.find((p) => p.slug === slug);
 

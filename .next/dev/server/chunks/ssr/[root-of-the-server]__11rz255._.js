@@ -434,7 +434,7 @@ const projects = [
         ],
         shortDesc: "Full-stack development of a comprehensive digital ecosystem for the official ITB Museum, bridging educational storytelling, interactive exhibits, and commercial services.",
         year: "2026",
-        thumbnail: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+        thumbnail: "/porto/museum1.png",
         color: "from-orange-50 to-amber-100",
         category: "Fullstack Web App",
         duration: "Jan 2026 – Feb 2026",
@@ -451,9 +451,9 @@ const projects = [
             "Optimasi SEO melalui Server-Side Rendering (SSR)"
         ],
         gallery: [
-            "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80",
-            "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
-            "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
+            "/porto/museum1.png",
+            "/porto/museum2.png",
+            "/porto/museum3.png"
         ]
     },
     {
@@ -471,7 +471,7 @@ const projects = [
         ],
         shortDesc: "End-to-end development of a high-performance C2C marketplace specialized in personal shopping services (Jasa Titip).",
         year: "2026",
-        thumbnail: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+        thumbnail: "/porto/mywishlist.png",
         color: "from-orange-50 to-amber-100",
         category: "Fullstack Web App",
         duration: "Jan 2026 – Feb 2026",
@@ -488,9 +488,8 @@ const projects = [
             "Communication layer yang efisien antara frontend dan backend"
         ],
         gallery: [
-            "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80",
-            "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
-            "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
+            "/porto/mywishlist.png",
+            "/porto/mywishlist2.png"
         ]
     },
     {
@@ -505,7 +504,7 @@ const projects = [
         ],
         shortDesc: "End-to-end development of a specialized Point of Sale (POS) and management system tailored for motorcycle workshop operations.",
         year: "2025",
-        thumbnail: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+        thumbnail: "/porto/lombok1.png",
         color: "from-orange-50 to-amber-100",
         category: "Fullstack Web App",
         duration: "Aug 2025 – Dec 2025",
@@ -522,9 +521,9 @@ const projects = [
             "Full deployment & server management"
         ],
         gallery: [
-            "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80",
-            "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
-            "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
+            "/porto/lombok1.png",
+            "/porto/lombok2.png",
+            "/porto/lombok3.png"
         ]
     },
     {
@@ -539,7 +538,7 @@ const projects = [
         ],
         shortDesc: "A specialized web-based 3D visualization platform for firearms and tactical equipment, focusing on high-fidelity interactive exploration.",
         year: "2025",
-        thumbnail: "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=800&q=80",
+        thumbnail: "/porto/gunviewer1.png",
         color: "from-slate-50 to-blue-100",
         category: "3D / Interactive Web",
         duration: "Nov 2025",
@@ -556,9 +555,9 @@ const projects = [
             "Vercel optimized deployment with CI/CD"
         ],
         gallery: [
-            "https://images.unsplash.com/photo-1617802690658-1173a812650d?w=800&q=80",
-            "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=800&q=80",
-            "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800&q=80"
+            "/porto/gunviewer1.png",
+            "/porto/gunviewer2.png",
+            "/porto/gunviewer3.png"
         ]
     },
     {

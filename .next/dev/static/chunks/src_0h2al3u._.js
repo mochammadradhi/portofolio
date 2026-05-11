@@ -196,7 +196,8 @@ const projects = [
             "/porto/museum1.png",
             "/porto/museum2.png",
             "/porto/museum3.png"
-        ]
+        ],
+        liveUrl: "https://museum.itb.ac.id"
     },
     {
         slug: "mywishlist-account",
@@ -232,7 +233,8 @@ const projects = [
         gallery: [
             "/porto/mywishlist.png",
             "/porto/mywishlist2.png"
-        ]
+        ],
+        liveUrl: "https://mywishlistaccount.com"
     },
     {
         slug: "lombok-motor-service",
@@ -300,7 +302,8 @@ const projects = [
             "/porto/gunviewer1.png",
             "/porto/gunviewer2.png",
             "/porto/gunviewer3.png"
-        ]
+        ],
+        liveUrl: "https://3d-gun-viewer.vercel.app"
     },
     {
         slug: "bina-labs-v2",
@@ -313,7 +316,7 @@ const projects = [
         ],
         shortDesc: "Full rebranding of an educational platform with mobile-first responsive UI, Meta Pixel analytics, and Laravel backend integration.",
         year: "2024",
-        thumbnail: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&q=80",
+        thumbnail: "/porto/binalabs1.png",
         color: "from-blue-50 to-indigo-100",
         category: "Fullstack Web App",
         duration: "Dec 2024 – Jan 2025",
@@ -330,10 +333,11 @@ const projects = [
             "Deployment on production hosting environments"
         ],
         gallery: [
-            "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80",
-            "https://images.unsplash.com/photo-1610484826967-09c5720778c7?w=800&q=80",
-            "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80"
-        ]
+            "/porto/binalabs1.png",
+            "/porto/binalabs2.png",
+            "/porto/binalabs3.png"
+        ],
+        liveUrl: "https://binalabs.id"
     },
     {
         slug: "bina-aplikasi-v1",
@@ -346,7 +350,7 @@ const projects = [
         ],
         shortDesc: "Development of the initial version of Bina Aplikasi, an educational platform for Islamic and English courses.",
         year: "2024",
-        thumbnail: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&q=80",
+        thumbnail: "/porto/bina1.png",
         color: "from-blue-50 to-indigo-100",
         category: "Fullstack Web App",
         duration: "Aug 2024 – Oct 2024",
@@ -362,7 +366,11 @@ const projects = [
             "Full deployment and server setup",
             "Responsive UI with Tailwind CSS"
         ],
-        gallery: []
+        gallery: [
+            "/porto/bina1.png",
+            "/porto/bina2.png"
+        ],
+        liveUrl: "https://bina-aplikasi.vercel.app/"
     },
     {
         slug: "internal-company-ips",
@@ -374,7 +382,7 @@ const projects = [
         ],
         shortDesc: "Landing page showcasing intellectual properties and recent internal company projects.",
         year: "2024",
-        thumbnail: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+        thumbnail: "/porto/plexus1.png",
         color: "from-gray-50 to-slate-100",
         category: "Frontend Web",
         duration: "Aug 2024",
@@ -388,7 +396,11 @@ const projects = [
             "Optimized performance for faster content delivery",
             "Responsive layout for desktop and mobile view"
         ],
-        gallery: []
+        gallery: [
+            "/porto/plexus1.png",
+            "/porto/plexus2.png"
+        ],
+        liveUrl: "https://plexus.id/launcher-min"
     },
     {
         slug: "kelana-boga",
@@ -400,7 +412,7 @@ const projects = [
         ],
         shortDesc: "Educational landing page about traditional Indonesian cuisine games.",
         year: "2024",
-        thumbnail: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+        thumbnail: "/porto/kelanaboga.jpg",
         color: "from-orange-50 to-red-100",
         category: "Frontend Web",
         duration: "Mar 2024",
@@ -414,7 +426,10 @@ const projects = [
             "Mobile-friendly design architecture",
             "Custom UI components based on branding"
         ],
-        gallery: []
+        gallery: [
+            "/porto/kelanaboga.jpg"
+        ],
+        liveUrl: "https://sgp-tenun.vercel.app/"
     },
     {
         slug: "mooncake-landing",
@@ -426,7 +441,7 @@ const projects = [
         ],
         shortDesc: "Modern information landing page for a new cryptocurrency project.",
         year: "2024",
-        thumbnail: "https://images.unsplash.com/photo-1639762681057-408e52192e55?w=800&q=80",
+        thumbnail: "/porto/bonzai.jpg",
         color: "from-purple-50 to-indigo-100",
         category: "Frontend Web",
         duration: "Feb 2024",
@@ -441,7 +456,9 @@ const projects = [
             "Clean call-to-action (CTA) sections"
         ],
         liveUrl: "https://bonzailabs.vercel.app/",
-        gallery: []
+        gallery: [
+            "/porto/bonnzai.jpg"
+        ]
     },
     {
         slug: "singer-personal-site",
@@ -453,7 +470,7 @@ const projects = [
         ],
         shortDesc: "A personal website for a singer, built using Astro JS for performance optimization.",
         year: "2023",
-        thumbnail: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=800&q=80",
+        thumbnail: "/porto/fabula.jpg",
         color: "from-pink-50 to-rose-100",
         category: "Frontend Web",
         duration: "Dec 2023",
@@ -467,7 +484,9 @@ const projects = [
             "Minimalist and elegant UI for artist profile",
             "Responsive styling with Tailwind CSS"
         ],
-        gallery: []
+        gallery: [
+            "/porto/fabula.jpg"
+        ]
     },
     {
         slug: "martial-arts-dance",
@@ -479,7 +498,7 @@ const projects = [
         ],
         shortDesc: "Educational landing page dedicated to traditional Indonesian martial arts and dance.",
         year: "2023",
-        thumbnail: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=800&q=80",
+        thumbnail: "/porto/4d.jpg",
         color: "from-amber-50 to-orange-100",
         category: "Frontend Web",
         duration: "Dec 2023 – Jan 2024",
@@ -493,7 +512,9 @@ const projects = [
             "Rich cultural information layout",
             "Clean and accessible typography"
         ],
-        gallery: []
+        gallery: [
+            "/porto/4d.jpg"
+        ]
     },
     {
         slug: "horror-game-cms",
@@ -534,7 +555,7 @@ const projects = [
         ],
         shortDesc: "Full-stack development and maintenance of a community-driven server website, focusing on content management and periodic updates.",
         year: "2022",
-        thumbnail: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80",
+        thumbnail: "/porto/alterlife.jpg",
         color: "from-blue-100 to-indigo-200",
         category: "Fullstack Web App",
         duration: "Jan 2021 – Jan 2022",
@@ -549,7 +570,10 @@ const projects = [
             "Content editing & management system",
             "Community-focused feature integration"
         ],
-        gallery: []
+        gallery: [
+            "/porto/alterlife.jpg",
+            "/porto/alterlife2.jpg"
+        ]
     },
     {
         slug: "clothing-brand-profile",
@@ -562,7 +586,7 @@ const projects = [
         ],
         shortDesc: "Professional company profile for a clothing brand featuring dynamic product galleries and API-driven imagery.",
         year: "2021",
-        thumbnail: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=800&q=80",
+        thumbnail: "/porto/clothing1.jpg",
         color: "from-stone-100 to-amber-200",
         category: "Fullstack Web App",
         duration: "Sep 2021 – Dec 2021",
@@ -577,7 +601,11 @@ const projects = [
             "Data sorting & filtering using Laravel Faker",
             "Dynamic product catalog display"
         ],
-        gallery: []
+        gallery: [
+            "/porto/clothing1.jpg",
+            "/porto/clothing2.jpg",
+            "/porto/clothing3.jpg"
+        ]
     },
     {
         slug: "music-store-platform",
@@ -590,7 +618,7 @@ const projects = [
         ],
         shortDesc: "Full-stack e-commerce system for musical instruments, featuring a structured database and modern UI components.",
         year: "2020",
-        thumbnail: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&q=80",
+        thumbnail: "/porto/music1.jpg",
         color: "from-teal-50 to-cyan-100",
         category: "Fullstack Web App",
         duration: "Jan 2020 – May 2020",
@@ -605,7 +633,13 @@ const projects = [
             "Product asset management",
             "Shopping cart & transaction flow"
         ],
-        gallery: []
+        gallery: [
+            "/porto/music1.jpg",
+            "/porto/music2.jpg",
+            "/porto/music3.jpg",
+            "/porto/music4.jpg",
+            "/porto/music5.jpg"
+        ]
     }
 ];
 const education = {
